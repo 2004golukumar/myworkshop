@@ -1,14 +1,14 @@
 Python 3.12.6 (tags/v3.12.6:a4a2d2b, Sep  6 2024, 20:11:23) [MSC v.1940 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
-x='Rajesh'
+x='gulsahn'
 type(x)
 <class 'str'>
-y='''rajesh
+y='''gulshan
 kumar'''
 type(y)
 <class 'str'>
 y
-'rajesh\nkumar'
+'gulshan\nkumar'
 s[0]
 Traceback (most recent call last):
   File "<pyshell#6>", line 1, in <module>
@@ -30,8 +30,7 @@ x[5]
 'h'
 y[8]
 'u'
-s="In a quaint village nestled between rolling hills, a young girl named Lila discovered an old, dusty book in her grandmother's attic. Intrigued, she opened it to find tales of magical creatures and hidden treasures. As she read each story, the characters seemed to come alive, filling her imagination with vibrant colors and adventures. One night, under the glow of the moon, she decided to create her own tale. With a pen in hand, she wove a story of a brave little fox who ventured beyond the forest in search of friendship. As the words flowed, Lila felt a sense of wonder and connection, realizing that stories had the power to bridge worlds, both real and imagined."
-s[0:7]
+
 'In a qu'
 s[0:4]
 'In a'
@@ -91,27 +90,20 @@ Traceback (most recent call last):
     print[s[5:1:9]]
 TypeError: 'builtin_function_or_method' object is not subscriptable
 .
-x="Rajesh"
+x="gulshan"
 y"Kumar"
 SyntaxError: invalid syntax
 y="Kumar"
 k=x+y
 x+y
-'RajeshKumar'
+'gulshan Kumar'
 x+  y
-'RajeshKumar'
+'gulshan kumar'
 x+\t y
-SyntaxError: unexpected character after line continuation character
-s="Rajesh"
-print("My Name is %s",%s)
-SyntaxError: invalid syntax
-print("My Name is %s",%s)
-SyntaxError: invalid syntax
-    print("My Name is %s"%s)
-    
-SyntaxError: unexpected indent
+
+
 print("my Name is %s"%s)
-my Name is Rajesh
+my Name is gulshan
 
 s="{} is state collage.".formate("GEC Vaishali")
 Traceback (most recent call last):
@@ -137,17 +129,18 @@ p=rajesh
 Traceback (most recent call last):
   File "<pyshell#59>", line 1, in <module>
     p=rajesh
-NameError: name 'rajesh' is not defined
-p"rajesh"
+NameError: name 'gulshan' is not defined
+p"gulshan"
 SyntaxError: invalid syntax
->>> p="Rajesh"
+>>> p="gulshan
+"
 >>> print("My name Is %s"%p)
-My name Is Rajesh
+My name Is gulsahn
 >>> print("%s is good student"%p)
 Rajesh is good student
->>> 1=[7,"Rajesh",4.5, True ]
+>>> 1=[7,4.5, True ]
 SyntaxError: cannot assign to literal here. Maybe you meant '==' instead of '='?
->>> s=[7,"Rajesh",4.5, True ]
+>>> s=[7,"gulshan",4.5, True ]
 >>> type(1)
 <class 'int'>
 >>> s[4]
@@ -180,7 +173,7 @@ Traceback (most recent call last):
 TypeError: type 'str' is not subscriptable
 >>> str(s)
 '[79]'
->>> s=[7,"Rajesh",4.5, True ]
+>>> s=[7,"gulshan",4.5, True ]
 >>> s.append(65)
 >>> 1
 1
