@@ -37,7 +37,7 @@ btn2.grid(row=2,column=2)
 
 btn3=Button(root,text="Result",command=result).grid(row=3,column=3)
 
-w=Entry(root,text="Enter name")
+w=Entry(root,text="Enter name gulshan kumar")
 w.grid(row=5,column=3)
 
 val=w.get()
